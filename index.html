@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iPush消息推送</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <img class="top-img" src='./top-img.png'/>
+      <div class="bottom-wrapper">
+        <div class="title">iPush消息推送</div>
+        <div class="subscribe">Android & IOS两端全覆盖</div>
+        <div class="subscribe">直连厂商通道，消息高效触达有保障</div>
+        <div class="subscribe">无缝衔接ICC，全渠道融合应用更灵活</div></div>
+        <button class="download-button" onclick='gotoDownload()'>下载测试应用</button>
+      </div>
+    </div>
+  </body>
+  <script>
+      function gotoDownload() {
+        window.location.href="http://icc6.cn/ipush-icc-web/ipush_demo.apk"
+      }
+  </script>
+  <style>
+      .page-wrapper {
+          width: 375px;
+          height: 812px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      .top-img {
+          width: 100%;
+      }
+      .title {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 200;
+        margin: 40px 0;
+      }
+      .subscribe {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 100;
+        margin: 20px 0;
+      }
+      .download-button {
+          width: 70%;
+          height: 60px;
+          font-size: 20px;
+          font-weight: 300;
+          margin-top: 100px;
+          border: none;
+          color: #fff;
+          border-radius: 30px;
+          background: linear-gradient(to right, #3065f5 , #59a3ea);
+      }
+  </style>
+</html>
